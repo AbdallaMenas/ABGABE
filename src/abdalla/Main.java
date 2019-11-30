@@ -1,7 +1,6 @@
-package abdalla;
 //TODO move me to the proper package named after your lastname. If you don't, the following code will throw an exception.
 //PACKAGE COMES HERE
-
+package abdalla;
 //DO NOT CHANGE ANYTHING BELOW THIS COMMENT!!
 //But you can read it and possibly learn a thing or two.
 
