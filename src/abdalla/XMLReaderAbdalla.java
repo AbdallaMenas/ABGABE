@@ -8,7 +8,7 @@ import org.w3c.dom.Element;
 import java.io.File;
 
 /**
- * Die Klasse liest ein XML-Dokument aus
+ * Die Klasse liest ein XML-File aus
  * @author Abdalla Menas
  * @version 2019-11-30
  */
@@ -54,7 +54,7 @@ public class XMLReaderAbdalla {
 	    					Node node1 = abteilu.item(count1);
 	    					if (node1.getNodeType() == node1.ELEMENT_NODE) {
 	    						Element subject = (Element) node1;
-	    						str.append("\ngegenstand : ");
+	    						str.append("\nGegenstand : ");
 	    						str.append(subject.getTextContent());
 	    					}
 	    				}
